@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+nav {
+    padding: .5rem 2rem;
+    background-color: rgb(253, 216, 5);
+    display: flex;
+    border-bottom: 1px solid #FFDDD2;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 40px;
+    height: 40px;
+}
+.items ul, a {
+    font-weight: 100;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    gap: 2rem;
+    position: relative;
+    top: 0%;
+    transition: top ease 0.5s;
+}
+.button {
+    font-size: 1rem;
+    text-align: center;
+    padding: .4rem 1.6rem;
+    background-color: #FFB9B9;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 2rem;
+    color: white;
+    font-weight: 200;
+    outline: none;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.button:hover, nav a:hover {
+    top: -5px;
+}
+
+.body {
+    background-image: url("../Images/BACK2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 3.3rem);
+    display: flex;
+    padding-left: 5rem;
+    justify-content: start;
+    align-items: center;
+}
+.body .content {
+    position: absolute;
+    top: 30%;
+}
+.body .content h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    color: black;
+}
+.body .content p {
+    font-size: 3rem;
+    font-weight: 800;
+    color: black;
+    font-family: "Dancing Script", Verdana, Geneva, Tahoma, sans-serif;
+}
+.body a {
+    background-image: url("../Images/LOGO1.png");
+    background-size: 15%;
+    background-position: left, center;
+    background-position-x: 5%;
+    background-repeat: no-repeat;
+    box-shadow: 3px 4px 8px black;
+    background-color:rgb(243, 190, 16);
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    font-size: .7rem;
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    width: fit-content;
+    padding: .7rem 1rem .7rem 2rem;
+}
+.body a:hover {
+    background-color:rgb(189, 221, 4);
+}
+
+.home .content {
+    width: 40rem;
+  }
+  
+  .home .content h3 {
+    font-size: 3rem;
+    color: #fff;
+    padding-bottom: 1rem;
+  }
+  
+  .home .content h3 span {
+    color: #e67e22;
+  }

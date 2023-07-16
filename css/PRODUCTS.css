@@ -1,0 +1,547 @@
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family: 'Poppins', sans-serif;
+	font-size:16px;
+	line-height:28px;
+}
+
+.logo{
+	max-width:28%;
+}
+
+
+
+/*Header*/
+
+header .bg-light {
+    background: transparent !important;
+}
+
+header {
+    background: #daac00;
+}
+
+header .navbar-nav li a {
+    font-size: 20px;
+    color: #FFF !important;
+}
+
+
+
+/*Banner*/
+
+section.banner-section {
+    background-image: url("../Images/BACK4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.banner-text h1 {
+    color:blueviolet;
+    font-size: 56px;
+    line-height: 68px;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    color:darkorange;
+    font-size: 32px;
+    margin-bottom: 33px;
+}
+
+.banner-text {
+    max-width: 541px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px 22px;
+}
+
+.btn-blue {
+    background: #00bec9;
+    color: #FFF;
+    border: 2px solid #00bec9;
+    margin-right: 20px;
+}
+
+.btn-outline-light {
+    border: 2px solid #FFF;
+}
+
+.dog-food,
+.cat-food {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.dog-food .image,
+.cat-food .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.dog-food .image img,
+.cat-food .image img {
+  width: 100%;
+}
+
+.dog-food .content,
+.cat-food .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.dog-food .content h3,
+.cat-food .content h3 {
+  font-size: 3.5rem;
+  color: #130f40;
+}
+
+.dog-food .content h3 span,
+.cat-food .content h3 span {
+  color: #e67e22;
+}
+
+.dog-food .content p,
+.cat-food .content p {
+  padding: 1rem 0;
+  line-height: 2;
+  color: #666;
+  font-size: 1.6rem;
+}
+
+.dog-food .content .amount,
+.cat-food .content .amount {
+  font-size: 3.5rem;
+  color: #130f40;
+  padding: .5rem 0;
+}
+
+.dog-food .content a img,
+.cat-food .content a img {
+  height: 15rem;
+  margin-top: 1rem;
+}
+
+.dog-food .content a:hover img,
+.cat-food .content a:hover img {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.cat-food {
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+.shop .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.shop .box-container .box {
+  position: relative;
+  overflow: hidden;
+}
+
+.shop .box-container .box:hover .image img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.shop .box-container .box:hover .icons {
+  -webkit-transform: translateX(0rem);
+          transform: translateX(0rem);
+}
+
+.shop .box-container .box .image {
+  height: 45rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.shop .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.shop .box-container .box .icons {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 10;
+  -webkit-transform: translateX(10rem);
+          transform: translateX(10rem);
+}
+
+.shop .box-container .box .icons a {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2.2rem;
+  margin-top: 1rem;
+  background: #fff;
+  color: #130f40;
+  text-align: center;
+}
+
+.shop .box-container .box .icons a:hover {
+  color: #fff;
+  background: #e67e22;
+}
+
+.shop .box-container .box .content {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.shop .box-container .box .content h3 {
+  font-size: 2.2rem;
+  color: #130f40;
+  padding-bottom: .5rem;
+}
+
+.shop .box-container .box .content .amount {
+  font-size: 2rem;
+  color: #e67e22;
+}
+
+
+.dog-food,
+.cat-food {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.dog-food .image,
+.cat-food .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.dog-food .image img,
+.cat-food .image img {
+  width: 100%;
+}
+
+.dog-food .content,
+.cat-food .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.dog-food .content h3,
+.cat-food .content h3 {
+  font-size: 3.5rem;
+  color: #130f40;
+}
+
+.dog-food .content h3 span,
+.cat-food .content h3 span {
+  color: #e67e22;
+}
+
+.dog-food .content p,
+.cat-food .content p {
+  padding: 1rem 0;
+  line-height: 2;
+  color: #666;
+  font-size: 1.6rem;
+}
+
+.dog-food .content .amount,
+.cat-food .content .amount {
+  font-size: 3.5rem;
+  color: #130f40;
+  padding: .5rem 0;
+}
+
+.dog-food .content a img,
+.cat-food .content a img {
+  height: 15rem;
+  margin-top: 1rem;
+}
+
+.dog-food .content a:hover img,
+.cat-food .content a:hover img {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.cat-food {
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+.shop .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.shop .box-container .box {
+  position: relative;
+  overflow: hidden;
+}
+
+.shop .box-container .box:hover .image img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.shop .box-container .box:hover .icons {
+  -webkit-transform: translateX(0rem);
+          transform: translateX(0rem);
+}
+
+.shop .box-container .box .image {
+  height: 45rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.shop .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.shop .box-container .box .icons {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 10;
+  -webkit-transform: translateX(10rem);
+          transform: translateX(10rem);
+}
+
+.shop .box-container .box .icons a {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2.2rem;
+  margin-top: 1rem;
+  background: #fff;
+  color: #130f40;
+  text-align: center;
+}
+
+.shop .box-container .box .icons a:hover {
+  color: #fff;
+  background: #e67e22;
+}
+
+.shop .box-container .box .content {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.shop .box-container .box .content h3 {
+  font-size: 2.2rem;
+  color: #130f40;
+  padding-bottom: .5rem;
+}
+
+.shop .box-container .box .content .amount {
+  font-size: 2rem;
+  color: #e67e22;
+}
+
+
+/*Footer*/
+
+footer {
+    background: #343434;
+    padding: 100px 0px;
+    color: #FFF;
+}
+
+footer h3 {
+    font-size: 26px;
+    color: #FFF;
+}
+
+.footer-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu ul li {
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+ul.footer-social {
+    margin: 20px 0px 0px;
+    padding: 0px;
+}
+
+ul.footer-social li {
+    list-style: none;
+    display: inline-flex;
+}
+
+ul.footer-social li a {
+    width: 30px;
+    height: 30px;
+    background: #FFF;
+    text-align: center;
+    line-height: 30px;
+    color: #000;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+ul.footer-social li a:hover {
+    background: #fcc302;
+    color: #FFF;
+} 
+
+.input-group {
+    max-width: 407px;
+}
+
+.input-group button {
+    padding: 9px 33px;
+    border: 2px solid #00bec9;
+    background: #00bec9;
+    color: #FFF;
+    font-size: 21px;
+}
+
+
+
+/*responisve css*/
+
+
+
+@media (max-width:767px){
+.banner-text {
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    line-height: 36px;
+}
+
+.banner-text p {
+    font-size: 15px;
+}
+
+section.banner-section {
+    padding: 30px 0px 30px;
+}
+
+.banner-img {
+    max-width: 300px;
+    margin: 0px auto;
+}
+section.services-section {
+    padding: 40px 0px 11px;
+}	
+section.text-section {
+    padding: 40px 0px 81px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.text-col h2, .text-col p {
+    margin-bottom: 10px;
+}
+
+.text-col {
+    text-align: center;
+    margin-bottom: 20px;
+}
+section.text-section.animal-section {
+    padding-bottom: 51px;
+}
+
+section.text-section.animal-section .text-col {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+section.shop-section {
+    padding: 40px 0px 10px;
+} 	
+	
+section.team-section {
+    padding: 40px 0px 10px;
+}	
+.stats-section {
+    padding: 30px 0px 30px;
+}
+
+.stats-box {
+    margin-bottom: 30px;
+}	
+section.blog-section {
+    padding: 40px 0px 20px;
+}	
+footer {
+    padding: 40px 0px;
+}
+
+.footer-col {
+    margin-bottom: 34px;
+}
+.navbar-light .navbar-toggler {
+    background: #FFF;
+}
+ 	
+	
+	
+}
+
+
+
+

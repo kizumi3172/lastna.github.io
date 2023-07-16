@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family: 'Poppins', sans-serif;
+	font-size:16px;
+	line-height:28px;
+}
+
+.logo{
+	max-width:28%;
+}
+
+
+
+/*Header*/
+
+header .bg-light {
+    background: transparent !important;
+}
+
+header {
+    background: #daac00;
+}
+
+header .navbar-nav li a {
+    font-size: 20px;
+    color: #FFF !important;
+}
+
+
+
+/*Banner*/
+
+section.banner-section {
+    background-image: url("../Images/BACK7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.banner-text h1 {
+    color: darkorange;
+    font-size: 56px;
+    line-height: 68px;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    color:#daac00;
+    font-size: 32px;
+    margin-bottom: 33px;
+}
+
+.banner-text {
+    max-width: 541px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px 22px;
+}
+
+.btn-blue {
+    background: #00bec9;
+    color: #FFF;
+    border: 2px solid #00bec9;
+    margin-right: 20px;
+}
+
+.btn-outline-light {
+    border: 2px solid #FFF;
+}
+
+
+
+.services .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .services .box-container .box {
+    background: #eee;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 33% 67% 70% 30% / 30% 30% 70% 70%;
+  }
+  
+  .services .box-container .box:nth-child(even) {
+    border-radius: 79% 21% 81% 19% / 58% 93% 7% 42%;
+  }
+  
+  .services .box-container .box:hover {
+    border-radius: .5rem;
+  }
+  
+  .services .box-container .box i {
+    height: 6.5rem;
+    width: 6.5rem;
+    line-height: 6.5rem;
+    font-size: 3rem;
+    color: #fff;
+    background: #e67e22;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+  }
+  
+  .services .box-container .box h3 {
+    font-size: 2.2rem;
+    color: #130f40;
+    padding: 1rem 0;
+  }
+  
+
+/*Footer*/
+
+footer {
+    background: #343434;
+    padding: 100px 0px;
+    color: #FFF;
+}
+
+footer h3 {
+    font-size: 26px;
+    color: #FFF;
+}
+
+.footer-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu ul li {
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+ul.footer-social {
+    margin: 20px 0px 0px;
+    padding: 0px;
+}
+
+ul.footer-social li {
+    list-style: none;
+    display: inline-flex;
+}
+
+ul.footer-social li a {
+    width: 30px;
+    height: 30px;
+    background: #FFF;
+    text-align: center;
+    line-height: 30px;
+    color: #000;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+ul.footer-social li a:hover {
+    background: #fcc302;
+    color: #FFF;
+} 
+
+.input-group {
+    max-width: 407px;
+}
+
+.input-group button {
+    padding: 9px 33px;
+    border: 2px solid #00bec9;
+    background: #00bec9;
+    color: #FFF;
+    font-size: 21px;
+}
+
+
+
+/*responisve css*/
+
+
+
+@media (max-width:767px){
+.banner-text {
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    line-height: 36px;
+}
+
+.banner-text p {
+    font-size: 15px;
+}
+
+section.banner-section {
+    padding: 30px 0px 30px;
+}
+
+.banner-img {
+    max-width: 300px;
+    margin: 0px auto;
+}
+section.services-section {
+    padding: 40px 0px 11px;
+}	
+section.text-section {
+    padding: 40px 0px 81px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.text-col h2, .text-col p {
+    margin-bottom: 10px;
+}
+
+.text-col {
+    text-align: center;
+    margin-bottom: 20px;
+}
+section.text-section.animal-section {
+    padding-bottom: 51px;
+}
+
+section.text-section.animal-section .text-col {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+section.shop-section {
+    padding: 40px 0px 10px;
+} 	
+	
+section.team-section {
+    padding: 40px 0px 10px;
+}	
+.stats-section {
+    padding: 30px 0px 30px;
+}
+
+.stats-box {
+    margin-bottom: 30px;
+}	
+section.blog-section {
+    padding: 40px 0px 20px;
+}	
+footer {
+    padding: 40px 0px;
+}
+
+.footer-col {
+    margin-bottom: 34px;
+}
+.navbar-light .navbar-toggler {
+    background: #FFF;
+}
+ 	
+	
+	
+}
+
+
+
+
